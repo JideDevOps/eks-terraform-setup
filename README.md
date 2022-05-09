@@ -76,8 +76,8 @@ $ terraform apply --auto-approve
 $ terraform destroy --auto-approve
 
 ## create the kubeconfig file  
-$ mkdir .kube/ 
-$ vi .kube/config
+$ mkdir ~/.kube
+$ vi ~/.kube/config # and copy the kubeconfig = file from the final report (green) after running terraform apply
 $ kubectl get pod
 $ #!/bin/bash 
 $ sh iam-authenticator.sh 
